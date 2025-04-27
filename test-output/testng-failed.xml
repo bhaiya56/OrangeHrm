@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login and Assign leave suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login and leave test(failed)">
+    <classes>
+      <class name="runners.LoginAndLeaveRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runners.LoginAndLeaveRunner -->
+    </classes>
+  </test> <!-- Login and leave test(failed) -->
+</suite> <!-- Failed suite [Login and Assign leave suite] -->

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Login and Assign leave suite" >
+	<test name = "Login and leave test">
+		<classes>
+			<class name = "runners.LoginAndLeaveRunner"/>
+
+		</classes>
+		</test>
+</suite>
